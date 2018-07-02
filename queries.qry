@@ -11,29 +11,3 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-query selectMembers {
-  description: "Select all members"
-  statement:
-      SELECT org.clp.biznet.Member
-}
-
-
-query selectPartners {
-  description: "Select all partners"
-  statement:
-      SELECT org.clp.biznet.Partner
-}
-
-query selectEarnPoints {
-  description: "Select all points earned transactions"
-  statement:
-      SELECT org.clp.biznet.EarnPoints
-}
-
-query selectUsePoints {
-  description: "Select all points earned transactions"
-  statement:
-      SELECT org.clp.biznet.UsePoints
-}
-
